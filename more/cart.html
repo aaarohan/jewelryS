@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lenro Gold Gallery | سنگ های قیمتی و سنگ های نیمه قیمتی، طراحی و ساخت طلا ۱۸ عیار </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="author" content="Lenro Gold Gallery">
+  <meta name="keywords" content="lenro-gold-gallery, 18K Gold, Jewelry, Rings, Necklace, Earring, طلا ۱۸ عیار، سنگ قیمتی، سنگ نیمه قیمتی"">
+  <meta name="description" content="Custom gold jewelry, unique designs, and high-quality gemstones at Lenro Gold Gallery">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../css/vendor.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <script type="module" src="../js/headerandfooter.js"></script>
+  <script type="module" src="../js/instagram.js"></script>
+  <script type="module" src="../js/svg.js"></script>
+</head>
+
+<body>
+  <my-svg></my-svg>
+
+  <div id="app"></div>
+  <div id="temporaryContent"></div>
+
+  <my-header></my-header>
+
+  <section class="hero-section my-lg-9">
+    <div class="hero-content ">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="display-1 my-3">My Cart</h1>
+            <div class="breadcrumbs">
+              <span class="item">
+                <a href="../index.html" class="text-black-50">Home /</a>
+              </span>
+              <span class="text-black">Cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="text-dark opacity-100 mx-lg-5">
+
+  <section id="cart" class="my-lg-9">
+    <div class="container-lg">
+      <div class="row g-md-5">
+        <div class="col-md-8 pe-md-5">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" class="card-title text-uppercase">Product</th>
+                <th scope="col" class="card-title text-uppercase">Quantity</th>
+                <th scope="col" class="card-title text-uppercase">Price</th>
+                <th scope="col" class="card-title text-uppercase"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row" class="py-4">
+                  <div class="cart-info d-flex flex-wrap align-items-center ">
+                    <div class="col-lg-3">
+                      <div class="card-image">
+                        <img src="../images/product-item7.jpg" alt="cloth" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="card-detail ps-lg-3">
+                        <h6 class="element-title text-uppercase  mt-3">
+                          <a href="products.html">Gemstone Cluster Studs</a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="input-group product-qty align-items-center pe-lg-5">
+                    <span class="input-group-btn">
+                      <button type="button" class="quantity-left-minus p-1 p-lg-2 btn btn-outline-primary btn-number"
+                        data-type="minus">-</button>
+                    </span>
+                    <input type="text" id="quantity" name="quantity"
+                      class="form-control input-number border-primary text-center p-2 mx-1" value="1">
+                    <span class="input-group-btn">
+                      <button type="button" class="quantity-right-plus p-1 p-lg-2 btn btn-outline-primary btn-number"
+                        data-type="plus" data-field="">+</button>
+                    </span>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="total-price">
+                    <span class="fw-medium">$150.00</span>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="cart-remove">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                        <path d="M 21 0 C 19.355469 0 18 1.355469 18 3 L 18 5 L 10.1875 5 C 10.0625 4.976563 9.9375 4.976563 9.8125 5 L 8 5 C 7.96875 5 7.9375 5 7.90625 5 C 7.355469 5.027344 6.925781 5.496094 6.953125 6.046875 C 6.980469 6.597656 7.449219 7.027344 8 7 L 9.09375 7 L 12.6875 47.5 C 12.8125 48.898438 14.003906 50 15.40625 50 L 34.59375 50 C 35.996094 50 37.1875 48.898438 37.3125 47.5 L 40.90625 7 L 42 7 C 42.359375 7.003906 42.695313 6.816406 42.878906 6.503906 C 43.058594 6.191406 43.058594 5.808594 42.878906 5.496094 C 42.695313 5.183594 42.359375 4.996094 42 5 L 32 5 L 32 3 C 32 1.355469 30.644531 0 29 0 Z M 21 2 L 29 2 C 29.5625 2 30 2.4375 30 3 L 30 5 L 20 5 L 20 3 C 20 2.4375 20.4375 2 21 2 Z M 11.09375 7 L 38.90625 7 L 35.3125 47.34375 C 35.28125 47.691406 34.910156 48 34.59375 48 L 15.40625 48 C 15.089844 48 14.71875 47.691406 14.6875 47.34375 Z M 18.90625 9.96875 C 18.863281 9.976563 18.820313 9.988281 18.78125 10 C 18.316406 10.105469 17.988281 10.523438 18 11 L 18 44 C 17.996094 44.359375 18.183594 44.695313 18.496094 44.878906 C 18.808594 45.058594 19.191406 45.058594 19.503906 44.878906 C 19.816406 44.695313 20.003906 44.359375 20 44 L 20 11 C 20.011719 10.710938 19.894531 10.433594 19.6875 10.238281 C 19.476563 10.039063 19.191406 9.941406 18.90625 9.96875 Z M 24.90625 9.96875 C 24.863281 9.976563 24.820313 9.988281 24.78125 10 C 24.316406 10.105469 23.988281 10.523438 24 11 L 24 44 C 23.996094 44.359375 24.183594 44.695313 24.496094 44.878906 C 24.808594 45.058594 25.191406 45.058594 25.503906 44.878906 C 25.816406 44.695313 26.003906 44.359375 26 44 L 26 11 C 26.011719 10.710938 25.894531 10.433594 25.6875 10.238281 C 25.476563 10.039063 25.191406 9.941406 24.90625 9.96875 Z M 30.90625 9.96875 C 30.863281 9.976563 30.820313 9.988281 30.78125 10 C 30.316406 10.105469 29.988281 10.523438 30 11 L 30 44 C 29.996094 44.359375 30.183594 44.695313 30.496094 44.878906 C 30.808594 45.058594 31.191406 45.058594 31.503906 44.878906 C 31.816406 44.695313 32.003906 44.359375 32 44 L 32 11 C 32.011719 10.710938 31.894531 10.433594 31.6875 10.238281 C 31.476563 10.039063 31.191406 9.941406 30.90625 9.96875 Z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td scope="row" class="py-4">
+                  <div class="cart-info d-flex flex-wrap align-items-center ">
+                    <div class="col-lg-3">
+                      <div class="card-image">
+                        <img src="../images/product-item1.jpg" alt="cloth" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="card-detail ps-lg-3">
+                        <h6 class="element-title text-uppercase  mt-3">
+                          <a href="products.html">Pearl Drop Earrings</a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="input-group product-qty align-items-center pe-lg-5">
+                    <span class="input-group-btn">
+                      <button type="button" class="quantity-left-minus p-1 p-lg-2 btn btn-outline-primary btn-number"
+                        data-type="minus">-</button>
+                    </span>
+                    <input type="text" id="quantity" name="quantity"
+                      class="form-control input-number border-primary text-center p-2 mx-1" value="1">
+                    <span class="input-group-btn">
+                      <button type="button" class="quantity-right-plus p-1 p-lg-2 btn btn-outline-primary btn-number"
+                        data-type="plus" data-field="">+</button>
+                    </span>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="total-price">
+                    <span class="fw-medium">$190.00</span>
+                  </div>
+                </td>
+                <td class="py-4 align-middle">
+                  <div class="cart-remove">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                        <path d="M 21 0 C 19.355469 0 18 1.355469 18 3 L 18 5 L 10.1875 5 C 10.0625 4.976563 9.9375 4.976563 9.8125 5 L 8 5 C 7.96875 5 7.9375 5 7.90625 5 C 7.355469 5.027344 6.925781 5.496094 6.953125 6.046875 C 6.980469 6.597656 7.449219 7.027344 8 7 L 9.09375 7 L 12.6875 47.5 C 12.8125 48.898438 14.003906 50 15.40625 50 L 34.59375 50 C 35.996094 50 37.1875 48.898438 37.3125 47.5 L 40.90625 7 L 42 7 C 42.359375 7.003906 42.695313 6.816406 42.878906 6.503906 C 43.058594 6.191406 43.058594 5.808594 42.878906 5.496094 C 42.695313 5.183594 42.359375 4.996094 42 5 L 32 5 L 32 3 C 32 1.355469 30.644531 0 29 0 Z M 21 2 L 29 2 C 29.5625 2 30 2.4375 30 3 L 30 5 L 20 5 L 20 3 C 20 2.4375 20.4375 2 21 2 Z M 11.09375 7 L 38.90625 7 L 35.3125 47.34375 C 35.28125 47.691406 34.910156 48 34.59375 48 L 15.40625 48 C 15.089844 48 14.71875 47.691406 14.6875 47.34375 Z M 18.90625 9.96875 C 18.863281 9.976563 18.820313 9.988281 18.78125 10 C 18.316406 10.105469 17.988281 10.523438 18 11 L 18 44 C 17.996094 44.359375 18.183594 44.695313 18.496094 44.878906 C 18.808594 45.058594 19.191406 45.058594 19.503906 44.878906 C 19.816406 44.695313 20.003906 44.359375 20 44 L 20 11 C 20.011719 10.710938 19.894531 10.433594 19.6875 10.238281 C 19.476563 10.039063 19.191406 9.941406 18.90625 9.96875 Z M 24.90625 9.96875 C 24.863281 9.976563 24.820313 9.988281 24.78125 10 C 24.316406 10.105469 23.988281 10.523438 24 11 L 24 44 C 23.996094 44.359375 24.183594 44.695313 24.496094 44.878906 C 24.808594 45.058594 25.191406 45.058594 25.503906 44.878906 C 25.816406 44.695313 26.003906 44.359375 26 44 L 26 11 C 26.011719 10.710938 25.894531 10.433594 25.6875 10.238281 C 25.476563 10.039063 25.191406 9.941406 24.90625 9.96875 Z M 30.90625 9.96875 C 30.863281 9.976563 30.820313 9.988281 30.78125 10 C 30.316406 10.105469 29.988281 10.523438 30 11 L 30 44 C 29.996094 44.359375 30.183594 44.695313 30.496094 44.878906 C 30.808594 45.058594 31.191406 45.058594 31.503906 44.878906 C 31.816406 44.695313 32.003906 44.359375 32 44 L 32 11 C 32.011719 10.710938 31.894531 10.433594 31.6875 10.238281 C 31.476563 10.039063 31.191406 9.941406 30.90625 9.96875 Z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 mt-5">
+          <div class="cart-totals">
+            <h4 class="display-4 pb-4 mt-0">Cart Total</h4>
+            <div class="total-price pb-4">
+              <table cellspacing="0" class="table text-uppercase">
+                <tbody>
+                  <tr class="subtotal pt-2 pb-2 border-top border-bottom">
+                    <th>Subtotal</th>
+                    <td data-title="Subtotal">
+                      <span class="price-amount amount text-dark ps-5">
+                        <bdi>
+                          <span class="price-currency-symbol">$</span>1,500.00
+                        </bdi>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class="order-total pt-2 pb-2 border-bottom">
+                    <th>Total</th>
+                    <td data-title="Total">
+                      <span class="price-amount amount text-dark ps-5">
+                        <bdi>
+                          <span class="price-currency-symbol">$</span>1,500.00</bdi>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="button-wrap row g-2">
+              <div class="col-md-6"><button class="btn btn-outline-dark p-3 w-100">Update Cart</button>
+              </div>
+              <div class="col-md-6"><button class="btn btn-outline-dark p-3 w-100">Continue Shop</button></div>
+              <div class="col-md-12 mt-3"><a href="checkout.html" class="btn btn-dark px-5 py-3 w-100">Proceed to
+                  checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="text-dark opacity-100 mx-lg-5">
+
+  <section id="offer" class="my-lg-9">
+    <div class="container-lg">
+      <div class="row flex-row-reverse align-items-center ">
+        <div class="col-lg-8">
+          <div class="image-holder text-end">
+            <img src="../images/banner-image3.jpg" alt="banner" class="img-fluid ">
+          </div>
+        </div>
+        <div class="col-lg-4  mt-5 mt-lg-0">
+          <div class="banner-content ">
+            <p class="fw-light sub-heading text-uppercase">Limited time offer</p>
+            <h2 class="display-3">Get 20% Off on your First Purchase</h2>
+            <p>Feugiat tellus metus lacus vulputate sed nec, feugiat at. Ac ultrices facilisis suspendisse
+              nec sagittis, mauris quisque pellentesque tincidunt. </p>
+            <a href="../shop.html" class="btn btn-outline-dark text-uppercase mt-2 mt-lg-3">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="text-dark opacity-100 mx-lg-5">
+
+  <my-instagram></my-instagram>
+
+  <hr class="text-dark opacity-100 mx-lg-5">
+
+  <my-footer></my-footer>
+
+  <script src="../js/shop.js" type="module"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
